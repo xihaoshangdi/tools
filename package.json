@@ -1,0 +1,29 @@
+{
+  "name": "file-tools-js",
+  "version": "0.0.1",
+  "description": "simple file operation Kit for javascript",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx babel src/ --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xihaoshangdi/tools.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "xihaoshangdi (https://github.com/xihaoshangdi/tools)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xihaoshangdi/tools/issues"
+  },
+  "homepage": "https://github.com/xihaoshangdi/tools#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.10"
+  }
+}
