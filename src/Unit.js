@@ -1,3 +1,3 @@
-import {copyFolder} from './common/fileTools'
+const {copyFolder} =require('./common/fileTools')
 
-export {copyFolder}
+module.exports={copyFolder}

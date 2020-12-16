@@ -1,2 +1,3 @@
-import {copyFolder} from './lib/fileTools'
-export {copyFolder}
+
+const { copyFolder } = require('./lib/Unit')
+module.exports = {copyFolder}

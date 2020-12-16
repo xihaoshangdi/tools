@@ -6,7 +6,7 @@ const path = require('path')
  * @param {String} targetFolder
  * @return {Promise}
  */
-export function copyFolder(sourceFolder, targetFolder) { // 覆盖性Copy
+function copyFolder(sourceFolder, targetFolder) { // 覆盖性Copy
     // 创建目标文件夹
     return fs.mkdir(targetFolder)
         .then(() => { console.log(`${targetFolder} 目标文件夹创建完成`) })
@@ -33,3 +33,4 @@ export function copyFolder(sourceFolder, targetFolder) { // 覆盖性Copy
         })
 }
 
+module.exports = { copyFolder }

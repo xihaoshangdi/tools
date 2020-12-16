@@ -1,11 +1,12 @@
 {
   "name": "file-tools-js",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "simple file operation Kit for javascript",
   "main": "index.js",
   "scripts": {
     "compile": "npx babel src/ --out-dir lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dopublish": "npm run compile && npm publish"
   },
   "repository": {
     "type": "git",
